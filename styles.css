@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+    /* border: 2px dotted red; */
+}
+i{
+    color: white;
+}
+/*Start Navbar*/
+.navbar {
+    background-color: #1F2937;
+    height: 60px;
+}
+    
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+    
+.navbar a:hover{
+    color: lightblue;
+}
+    
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+    
+.navbar ul{
+    display: flex;
+}
+    
+.navbar ul li{
+    margin-left: 20px;
+}
+
+.header{
+    background-color: #1F2937;
+    color: #fff;
+    min-height: 400px;
+}
+/*End Navbar*/
+
+/*Start Header*/
+.header h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+    
+.header img{
+    width: 300px;
+    max-height: 350px;
+}
+    
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sign-up-header{
+    background-color: #3883f6;
+    color:#f9faf8;
+    width: 100px;
+    height: 30px;
+    border: 1px #3883f6;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+/*End Header*/
+
+/* Start Box Section */
+.boxes-section{
+    margin-bottom: 80px;
+}
+.boxes-section h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.box-blue{
+    border: 3px solid #3883f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.box-text{
+    text-align: center;
+}
+/* End Box Section */
+
+/*Start Quote section*/
+.quote-section{
+    background-color: #E5E7EB;
+    /* border: 2px dotted blue; */
+}
+
+.quote-section h3{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-space{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.quote-space .author-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+/*End Quote section*/
+
+/*Start Cta section*/
+.cta-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+.cta-space{
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.cta-button button{
+    background-color: #3883f6;
+    color: #f9faf8;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.cta-text{
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+}
+.cta-text h4{
+    font-weight: bolder;
+    font-size: 24px;
+}
+/*End Cta section*/
+
+/*Start Footer*/
+footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+}
+.footer p{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*End Footer*/
